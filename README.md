@@ -1,4 +1,5 @@
-# better-promise-hash
+# better-promise-hash ![travis status](https://travis-ci.org/shhQuiet/better-promise-hash.svg?branch=master)
+
 A better implementation of a hash function for Promise
 
 *Sometimes you feel like a nut, sometimes you don't*
