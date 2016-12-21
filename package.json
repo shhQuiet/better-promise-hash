@@ -1,0 +1,27 @@
+{
+  "name": "better-promise-hash",
+  "version": "1.0.0",
+  "description": "A better Promise hash function",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shhQuiet@github.com/shhQuiet/better-promise-hash.git"
+  },
+  "keywords": [
+    "promise",
+    "hash"
+  ],
+  "author": "Steve Horne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shhQuiet/better-promise-hash/issues"
+  },
+  "homepage": "https://github.com/shhQuiet/better-promise-hash#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
