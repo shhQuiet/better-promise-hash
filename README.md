@@ -1,4 +1,4 @@
-# better-promise-hash [![travis status](https://travis-ci.org/shhQuiet/better-promise-hash.svg?branch=master)](https://travis-ci.org/shhQuiet/better-promise-hash#)
+# better-promise-hash [![npm](https://img.shields.io/npm/dm/better-promise-hash.svg)](https://www.npmjs.com/package/better-promise-hash) [![travis status](https://travis-ci.org/shhQuiet/better-promise-hash.svg?branch=master)](https://travis-ci.org/shhQuiet/better-promise-hash#)
 
 A better implementation of a hash function for Promise.  Returns a promise that is fulfilled when all the given promises have been fulfilled.  Any rejection rejects the whole hash.
 
