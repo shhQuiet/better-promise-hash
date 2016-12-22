@@ -1,6 +1,6 @@
 {
   "name": "better-promise-hash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A better Promise hash function",
   "main": "index.js",
   "scripts": {
