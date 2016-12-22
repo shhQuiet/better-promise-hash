@@ -1,4 +1,4 @@
-//'use strict';
+'use strict';
 
 const expect = require('chai').expect;
 const assert = require('chai').assert;
@@ -27,8 +27,20 @@ describe('better-promise-hash', () => {
   it('Promise#hash() returns a promise', () => {
     const result = Promise.hash({
       one: makeGood(1)
-    }).then((results) => {}, (rejection) => {});
+    });
     expect(result).to.be.instanceof(Promise);
+  });
+
+  it("Promise#hash() works with an empty object", (done) => {
+    const emptyHash = {};
+    Promise.hash(emptyHash).then((results) => {
+      assert.isOk(results);
+      done();
+    }, (rejection) => {
+      assert.fail("promise rejected!", rejection);
+    }).catch((exc) => {
+      assert.fail("Exception thrown!", exc);
+    });
   });
 
   it('Promise#hash() works with promises', (done) => {
