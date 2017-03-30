@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/shhQuiet/better-promise-hash/issues"
   },
-  "homepage": "https://github.com/shhQuiet/better-promise-hash#readme",
+  "homepage": "https://shhquiet.github.io/better-promise-hash/",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
